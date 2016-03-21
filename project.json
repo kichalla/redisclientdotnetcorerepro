@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0-*",
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "frameworks": {
+    "net451": {
+      "frameworkAssemblies": {
+        "System.Runtime": { "type": "build" }
+      },
+      "dependencies": {
+        "StackExchange.Redis.StrongName": "1.0.488"
+      }
+    },
+    "netstandardapp1.5": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "NETStandard.Library": "1.0.0-*",
+        "StackExchange.Redis.StrongName": "1.1.0-alpha1"
+      }
+    }
+  }
+}
